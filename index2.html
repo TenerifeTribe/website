@@ -10,6 +10,9 @@
       <iframe src="https://discord.com/widget?id=795315951951544360&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
       <script>
          // window.location.href = "https://discord.com/invite/TPMG4HxYmc"
+         const params = new URLSearchParams(document.location.search);
+         const nr = params.get("nr");
+         console.info(nr);
       </script>
    </body>
 </html>
